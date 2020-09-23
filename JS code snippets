@@ -1,0 +1,5 @@
+var totalChar=240;
+var txt = prompt("Enter a text:");
+var txtCount = txt.length;
+var charLeft = totalChar - txtCount;
+alert("You have written "+txtCount+", you have - " + charLeft+"left.");
